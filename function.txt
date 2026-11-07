@@ -1,3 +1,13 @@
+
+Definition fo function
+=========================
+Function:Is a block of code that designed to fperform a specific task 
+
+The 3 Core Parts of a Function
+
+i. Declaration : You define what the function does and give it a name.start with key word function
+ii. Parameters/Arguments (The Inputs): The inputs you pass into the function so it can do its job.
+iii. Return Statement (The Result): The final product that the function spits back out to you.
 #types of function
 1.with no paramaters no return value
 2.with  no paramaters return value
