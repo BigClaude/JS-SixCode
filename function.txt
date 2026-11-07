@@ -1,0 +1,10 @@
+#types of function
+1.with no paramaters no return value
+2.with  no paramaters return value
+3.with paramaters no retun value
+4.with paramaters with retunr value
+#Function definntion
+1.Function declaration
+2.function  definition//task/acitivity (Body)
+3function output
+4.function calling

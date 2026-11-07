@@ -15,5 +15,43 @@
          <button>=</button>   <button>.</button>
 
       </div>
+      
+<script>
+
+    let num1 = Number(document.getElementById("n1"));
+    let num2 = Number(document.getElementById("n2"));
+
+    let res = document.getElementById("result");
+
+    let choice = prompt("Enter operator (+, -, X, /)");
+
+    if (choice == "+") {
+        res.innerHTML = num1 + num2;
+    }
+
+    else if (choice == "-") {
+        res.innerHTML = num1 - num2;
+    }
+
+    else if (choice == "X") {
+        res.innerHTML = num1 * num2;
+    }
+
+    else if (choice == "/") {
+        if (num2 != 0) {
+            res.innerHTML = num1 / num2;
+        }
+        else {
+            res.innerHTML = "Cannot divide by zero";
+        }
+    }
+
+    else {
+        res.innerHTML = "Invalid operator";
+    }
+
+</script>
+
+      
 </body>
 </html>
