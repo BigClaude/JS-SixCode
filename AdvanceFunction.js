@@ -1,8 +1,8 @@
 /* 1.function Declaration 
    2.Function Expression
     3.Arrow function
-    4.IIFE
-    G5.Generator function */
+    4.IIFE function
+     */
 /* 1.Function declaration: standway of define a function */
 //example:
 
@@ -45,3 +45,5 @@ console.log(mark3(60,80,60));
 let sum=math+comp+ict;
 console.log(sum)}) //function exceute immediatly
 (50,10,20); // (50, 10, 20) – passes the arguments.
+
+
