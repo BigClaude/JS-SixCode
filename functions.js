@@ -45,7 +45,6 @@ let sal=450000;
 let bon=0.2;
 EmployeeBonus(sal,bon);  //passing value to paramaters salary,bonus
 
-
 /* 4.function with parameters with return 
 ========================================= */
 //bmi calcluation eas examples(BMI=m/hXh)
