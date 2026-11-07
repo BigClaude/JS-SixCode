@@ -1,20 +1,31 @@
 
-Definition fo function
+Definition of function
 =========================
-Function:Is a block of code that designed to fperform a specific task 
+Function:Is a block of code that designed to perform a specific task 
 
 The 3 Core Parts of a Function
+==============================
 
 i. Declaration : You define what the function does and give it a name.start with key word function
 ii. Parameters/Arguments (The Inputs): The inputs you pass into the function so it can do its job.
 iii. Return Statement (The Result): The final product that the function spits back out to you.
+
 #types of function
-1.with no paramaters no return value
-2.with  no paramaters return value
-3.with paramaters no retun value
-4.with paramaters with retunr value
-#Function definntion
-1.Function declaration
-2.function  definition//task/acitivity (Body)
-3function output
-4.function calling
+===================
+1.Function with no paramaters no return type
+2.Function with  no paramaters return retun
+3.Function with paramaters no retun retun
+4.Function with paramaters with retunr retun
+
+# 4 main states of a function
+============================
+a.Function declaration
+ example:
+  function pp(Argments here(input or variables))
+ { 
+  b.  body of the function/what a function will perform here
+  c.  return pp//out put of the function
+ }
+ d.pp()//function call
+ 
+

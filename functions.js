@@ -1,9 +1,10 @@
-//1.no paramater no return
+/* 1.function no parameters(input) with no return type 
+=======================================================*/
 
 // global variables
 let n1=30;
 let n3=50;
-//function definitions
+//function definition
 function add(){
 let sum;//local variable to hold the result
 sum=n1+n3;
@@ -11,7 +12,7 @@ console.log(sum); //function calling
 }
 add();
 
-/* 3.function with parameters(input) but no retern value 
+/* 3.function with parameters(input) but no return type
 =======================================================*/
 
 //calcualting area of a circle
@@ -49,7 +50,7 @@ EmployeeBonus(sal,bon);  //passing value to paramaters salary,bonus
 ========================================= */
 //bmi calcluation eas examples(BMI=m/hXh)
 
-//function declaration with paramters
+//function declaration with parameters
 let names= "Rwaka";
 function bmiCalculation(mass ,height){
 let bmi;
