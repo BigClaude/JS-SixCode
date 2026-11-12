@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+
+    <h1>Simple Calculator</h1>
+
+    <label>Result:
+        <input type="text" id="disp" disabled>
+    </label>
+
+    <br><br><br>
+
+    num1: <input type="number" id="num1" step="any">
+
+    <br><br>
+
+    num2:  <input type="number" id="num2" step="any">
+
+    <hr>
+
+    <button onclick="Calculator('+')">+</button>
+    <button onclick="Calculator('-')">-</button>
+    <button onclick="Calculator('*')">x</button>
+    <button onclick="Calculator('/')">/</button>
+    <button onclick="Clear()">C</button>
+
+    <script>
+
+        function Calculator(operator) {
+
+            let n1 = Number(document.getElementById("num1").value);
+            let n2 = Number(document.getElementById("num2").value);
+
+            let answer;
+
+            if (operator === '+') {
+                answer = n1 + n2;
+            }
+            else if (operator === '-') {
+                answer = n1 - n2;
+            }
+            else if (operator === '*') {
+                answer = n1 * n2;
+            }
+            else if (operator === '/') {
+
+                if (n2 === 0) {
+                    answer = "Cannot divide by zero";
+                }
+                else {
+                    answer = n1 / n2;
+                }
+            }
+            else {
+                answer = "Invalid operator";
+            }
+
+            document.getElementById("disp").value = answer;
+
+        }
+
+        function Clear() {
+            document.getElementById("num1").value = "";
+            document.getElementById("num2").value = "";
+            document.getElementById("disp").value = "";
+        }
+
+    </script>
+
+</body>
+</html>
